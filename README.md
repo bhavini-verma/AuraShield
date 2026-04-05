@@ -173,3 +173,5 @@ Refer to the results folder for screenshots.
 ![Hardware](RESULTS/HARDWARE.jpeg)
 
 ![Hardware2](RESULTS/HARDWARE2.jpeg)
+
+![DASHBOARD](RESULTS/DASHBOARD.jpeg)
