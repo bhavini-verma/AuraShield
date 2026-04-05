@@ -158,58 +158,46 @@ Refer to the results folder for screenshots.
 
 ## Output Preview
 
-![Output](RESULTS/OUTPUT1.png)
+![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\OUTPUT1.jpeg")
 
 ---
 
 ## Output Preview
 
-![Output](RESULTS/WAVEFORM1.png)
+![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\WAVEFORM5.jpeg")
 
 ---
 ## Output Preview
 
-![Output](RESULTS/WAVEFORM2.png)
+![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\WAVEFORM4.jpeg")
 
 ---
 ## Output Preview
 
-![Output](RESULTS/WAVEFORM3.png)
+![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\WAVEFORM3.jpeg")
 
 ---
 ## Output Preview
 
-![Output](RESULTS/WAVEFORM4.png)
+![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\WAVEFORM2.jpeg")
 
 ---
 ## Output Preview
 
-![Output](RESULTS/WAVEFORM5.png)
+![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\WAVEFORM1.jpeg")
 
 ---
 ## Output Preview
 
-![Output](RESULTS/HARDWARE1.png)
+![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\HARDWARE.jpeg")
 
 ---
 ## Output Preview
 
-![Output](RESULTS/HARDWARE2.png)
+![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\HARDWARE2.jpeg")
+
+
+
 
 ---
 
-## Note
-
-This project was tested on hardware. Currently, hardware is not available, but the code compiles successfully.
-
----
-
-## GitHub Link
-
-https://github.com/Nitisha-27/WomenSafety
-
----
-
-## Developed By
-
-FemTech Force
