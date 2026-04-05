@@ -2,7 +2,7 @@
 #define PIR_PIN     27
 #define ECG_PIN     33
 #define GSR_PIN     34
-#define MIC_PIN     32   // 🔥 ADDED MIC
+#define MIC_PIN     32   
 
 #define BUTTON_PIN  4
 
@@ -13,10 +13,10 @@
 // -------------------- THRESHOLDS --------------------
 int PIR_THRESHOLD = 1;
 
-// 🔥 TUNED VALUES
+//  TUNED VALUES
 int ECG_THRESHOLD = 1800;
 int GSR_THRESHOLD = 1700;
-int MIC_THRESHOLD = 2200;   // 🔥 ADDED MIC THRESHOLD
+int MIC_THRESHOLD = 2200;   
 
 // -------------------- VARIABLES --------------------
 bool systemOn = false;
@@ -30,7 +30,7 @@ void setup() {
   pinMode(PIR_PIN, INPUT);
   pinMode(ECG_PIN, INPUT);
   pinMode(GSR_PIN, INPUT);
-  pinMode(MIC_PIN, INPUT);   // 🔥 ADDED
+  pinMode(MIC_PIN, INPUT);   
 
   pinMode(BUTTON_PIN, INPUT_PULLUP);
 
@@ -54,7 +54,7 @@ void loop() {
 
     if (firstPress && millis() - lastPressTime < 600) {
       panicOverride = true;
-      Serial.println("🔥 PANIC ");
+      Serial.println(" PANIC ");
     } 
     else {
       systemOn = !systemOn;
@@ -83,15 +83,15 @@ void loop() {
   int pirValue = digitalRead(PIR_PIN);
   int ecgValue = analogRead(ECG_PIN);
   int gsrValue = analogRead(GSR_PIN);
-  int micValue = analogRead(MIC_PIN);   // 🔥 ADDED
+  int micValue = analogRead(MIC_PIN);   
 
   // -------- FLAGS --------
   bool pirFlag = (pirValue >= PIR_THRESHOLD);
   bool ecgFlag = (ecgValue > ECG_THRESHOLD);
   bool gsrFlag = (gsrValue > GSR_THRESHOLD);
-  bool micFlag = (micValue > MIC_THRESHOLD);   // 🔥 ADDED
+  bool micFlag = (micValue > MIC_THRESHOLD);   
 
-  int total = pirFlag + ecgFlag + gsrFlag + micFlag;   // 🔥 UPDATED COUNT
+  int total = pirFlag + ecgFlag + gsrFlag + micFlag;
 
   // -------- DECISION --------
   String zone = "SAFE";
@@ -107,7 +107,7 @@ void loop() {
   Serial.print("PIR: "); Serial.print(pirValue);
   Serial.print(" | ECG: "); Serial.print(ecgValue);
   Serial.print(" | GSR: "); Serial.print(gsrValue);
-  Serial.print(" | MIC: "); Serial.print(micValue);   // 🔥 ADDED
+  Serial.print(" | MIC: "); Serial.print(micValue);   
   Serial.print(" | Count: "); Serial.print(total);
   Serial.print(" | Zone: "); Serial.println(zone);
 
