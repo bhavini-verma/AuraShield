@@ -158,46 +158,18 @@ Refer to the results folder for screenshots.
 
 ## Output Preview
 
-![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\OUTPUT1.jpeg")
+![Output](RESULTS/OUTPUT1.jpeg)
 
----
+![Waveform5](RESULTS/WAVEFORM5.jpeg)
 
-## Output Preview
+![Waveform4](RESULTS/WAVEFORM4.jpeg)
 
-![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\WAVEFORM5.jpeg")
+![Waveform3](RESULTS/WAVEFORM3.jpeg)
 
----
-## Output Preview
+![Waveform2](RESULTS/WAVEFORM2.jpeg)
 
-![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\WAVEFORM4.jpeg")
+![Waveform1](RESULTS/WAVEFORM1.jpeg)
 
----
-## Output Preview
+![Hardware](RESULTS/HARDWARE.jpeg)
 
-![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\WAVEFORM3.jpeg")
-
----
-## Output Preview
-
-![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\WAVEFORM2.jpeg")
-
----
-## Output Preview
-
-![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\WAVEFORM1.jpeg")
-
----
-## Output Preview
-
-![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\HARDWARE.jpeg")
-
----
-## Output Preview
-
-![Output]("C:\Users\bhavi\OneDrive\AURASHEILD\RESULTS\HARDWARE2.jpeg")
-
-
-
-
----
-
+![Hardware2](RESULTS/HARDWARE2.jpeg)
